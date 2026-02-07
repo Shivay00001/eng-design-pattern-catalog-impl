@@ -1,5 +1,7 @@
-FROM golang:1.20-alpine
+FROM python:3.11-slim
+
 WORKDIR /app
+
 COPY . .
-RUN go build -o app
-CMD ["./app"]
+
+ENTRYPOINT ["python", "src/main.py"]
