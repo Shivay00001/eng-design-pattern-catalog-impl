@@ -1,6 +1,6 @@
-from src.patterns.creational import DatabaseConnection, SerializerFactory
-from src.patterns.structural import LegacyPaymentSystem, PaymentAdapter, Notifier, SMSDecorator, SlackDecorator
-from src.patterns.behavioral import NewsPublisher, NewsChannel, Navigator, RoadStrategy, WalkingStrategy
+from patterns.creational import DatabaseConnection, SerializerFactory
+from patterns.structural import LegacyPaymentSystem, PaymentAdapter, Notifier, SMSDecorator, SlackDecorator
+from patterns.behavioral import NewsPublisher, NewsChannel, Navigator, RoadStrategy, WalkingStrategy
 
 def main():
     print("--- Design Patterns Implementation Demo ---\n")
