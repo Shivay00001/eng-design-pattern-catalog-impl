@@ -1,5 +1,7 @@
 # Eng Design Pattern Catalog Impl
 
+Built by [VisionQuantech](https://visionquantech.com) — AI agents, apps & tools for small businesses.
+
 Engineering design patterns catalog — Go & Python impls with CI/CD and Docker.
 
 ![Language](https://img.shields.io/badge/Language-Python-blue)
